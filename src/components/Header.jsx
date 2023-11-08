@@ -6,9 +6,9 @@ const Header = () => {
     <>
       <header className="flex items-center justify-evenly p-5 max-md:justify-between">
         <div className="flex items-center gap-10">
-          <div className="flex items-center gap-4">
-            <BiSolidBriefcaseAlt2 className="text-3xl text-green-900" />
-            <h1 className="text-3xl font-indie text-green-900">connectME</h1>
+          <div className="flex items-center gap-1">
+            <BiSolidBriefcaseAlt2 className="text-3xl text-green" />
+            <h1 className="text-3xl font-indie text-green">connectME</h1>
           </div>
           <ul className="flex gap-6  nav-links max-md:hidden">
             <li>Jobs</li>
@@ -19,10 +19,10 @@ const Header = () => {
           </ul>
         </div>
         <div className="flex gap-5 items-center">
-          <button className="border px-2 py-1 border-green-900 rounded-md font-light text-md hover:bg-blue-50 duration-300">
+          <button className="border px-2 py-1 border-green rounded-md font-light text-md hover:bg-green hover:text-white duration-300 max-[400px]:hidden">
             Sign up
           </button>
-          <GiHamburgerMenu className="text-3xl hover:text-blue-500 md:hidden" />
+          <GiHamburgerMenu className="text-3xl hover:text-green md:hidden" />
         </div>
       </header>
     </>

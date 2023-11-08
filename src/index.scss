@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  @apply font-poppins;
+}
+
+.nav-links li{
+  @apply text-black hover:text-green font-light cursor-pointer transition-all duration-300;
+}
+.pattern {
+  background-image: url(/src/assets/pattern.png);
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+.posting {
+  
+  &:hover{
+    @apply bg-gray-100 cursor-pointer duration-300 ;
+    .date{
+      @apply hidden;
+    }
+    .btns{
+      @apply flex transition-all duration-300;
+    }
+  }
+}
