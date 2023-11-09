@@ -19,7 +19,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="flex gap-5 items-center">
-          <button className="border px-2 py-1 border-green rounded-md font-light text-md hover:bg-green hover:text-white duration-300 max-[400px]:hidden">
+          <button className="border px-4 py-1 border-gray-200 rounded-md font-light text-md hover:bg-green hover:text-white duration-300 max-[400px]:hidden">
             Sign up
           </button>
           <GiHamburgerMenu className="text-3xl hover:text-green md:hidden" />
