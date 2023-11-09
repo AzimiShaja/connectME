@@ -162,7 +162,7 @@ const Jobs = () => {
         </div>
         {/*=====*/}
         <button className="bg-green border border-green hover:bg-white hover:text-green  p-2 text-white rounded-md flex items-center gap-3 transition-all">
-          Browse Writing Jobs <BsArrowRight />
+          Browse Jobs <BsArrowRight />
         </button>
       </div>
     </div>

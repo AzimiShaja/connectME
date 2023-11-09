@@ -39,14 +39,14 @@ const Portfolio = () => {
               your email or contact form.
             </p>
             <button className="bg-whiteYellow p-4 rounded-md hover:opacity-80 duration-300 text-green w-fit max-md:w-full">
-              Create your free porfolio
+              Create your free portfolio
             </button>
           </div>
         </div>
         <div>
           <img
             src={port}
-            className="lg:h-full max-xl:hidden object-cover rounded-r-lg "
+            className="lg:h-full max-xl:hidden object-cover rounded-r-lg lg:w-[660px]"
           />
         </div>
       </div>

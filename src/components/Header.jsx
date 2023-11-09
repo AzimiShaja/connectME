@@ -4,7 +4,7 @@ import { BiSolidBriefcaseAlt2 } from "react-icons/bi";
 const Header = () => {
   return (
     <>
-      <header className="flex items-center justify-evenly p-5 max-md:justify-between sticky z-50 top-0 bg-white">
+      <header className="flex items-center justify-around p-5 max-md:justify-between sticky z-50 top-0 bg-white border-b">
         <div className="flex items-center gap-10">
           <div className="flex items-center gap-1">
             <BiSolidBriefcaseAlt2 className="text-3xl text-green" />
