@@ -1,13 +1,13 @@
 import React from "react";
-import port from "../assets/port.png";
+import port from "../assets/port.jpg";
 import { AiOutlineCloudUpload } from "react-icons/ai";
 import { FaLock } from "react-icons/fa";
 import { BiUser } from "react-icons/bi";
 
 const Portfolio = () => {
   return (
-    <div className="py-20 flex flex-col items-center ">
-      <div className="lg:w-9/12 w-full flex max-md:flex-col max-md:px-8 max-md:py-8 gap-20  rounded-lg bg-green justify-between">
+    <div className="py-20 flex flex-col items-center sm:px-8">
+      <div className="lg:w-9/12 w-full flex max-md:flex-col max-lg:px-8 max-lg:py-8 gap-20  sm:rounded-lg bg-green justify-between">
         <div className="flex flex-col text-white lg:py-10 lg:px-20 gap-5 max-w-[700px]">
           <div className="flex flex-col items-start max-md:items-center gap-5 border-b border-gray-500 pb-10">
             <p className="bg-whiteGreen p-2 lg:w-fit text-green rounded-md text-sm max-md:text-center">
@@ -46,7 +46,7 @@ const Portfolio = () => {
         <div>
           <img
             src={port}
-            className="lg:h-full max-xl:hidden object-cover rounded-r-lg lg:w-[660px]"
+            className="lg:h-full max-xl:hidden object-cover rounded-r-lg lg:max-w-[660px]"
           />
         </div>
       </div>

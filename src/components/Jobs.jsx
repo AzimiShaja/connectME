@@ -83,7 +83,7 @@ const Jobs = () => {
             <h1 className="font-semibold text-md flex items-center gap-2">
               <FaPenNib /> Copywriting Jobs
             </h1>
-            <p className="font-light text-gray-500 text-sm">
+            <p className="font-light text-gray-500 text-sm max-md:text-center">
               Explore copywriting opportunities from crafting compelling ad copy
               to persuasive sales letters.
             </p>
@@ -96,7 +96,7 @@ const Jobs = () => {
             <h1 className="font-semibold text-md flex items-center gap-3">
               <BiBriefcase /> Marketing Jobs
             </h1>
-            <p className="font-light text-gray-500 text-sm">
+            <p className="font-light text-gray-500 text-sm max-md:text-center">
               Browse marketing related jobs from top companies, leading agencies
               to fast-growing startups.
             </p>
@@ -110,7 +110,7 @@ const Jobs = () => {
             <h1 className="font-semibold text-md flex items-center gap-3">
               <BsClockHistory /> Technical Writing Jobs
             </h1>
-            <p className="font-light text-gray-500 text-sm">
+            <p className="font-light text-gray-500 text-sm max-md:text-center">
               Discover technical writing opportunities from technical report
               writing to user manuals.
             </p>
@@ -124,7 +124,7 @@ const Jobs = () => {
               {" "}
               <GiEarthAfricaEurope /> Remote Jobs
             </h1>
-            <p className="font-light text-gray-500 text-sm">
+            <p className="font-light text-gray-500 text-sm max-md:text-center">
               Remote jobs for freelancers and full-time positions available to
               writers from anywhere.
             </p>
@@ -137,7 +137,7 @@ const Jobs = () => {
             <h1 className="font-semibold text-md flex items-center gap-3">
               <IoMdCheckmarkCircleOutline /> Copywriting Jobs
             </h1>
-            <p className="font-light text-gray-500 text-sm">
+            <p className="font-light text-gray-500 text-sm max-md:text-center">
               Explore copywriting opportunities from crafting compelling ad copy
               to persuasive sales letters.
             </p>
@@ -151,7 +151,7 @@ const Jobs = () => {
               {" "}
               <AiOutlineSchedule /> Full-Time Writing Jobs
             </h1>
-            <p className="font-light text-gray-500 text-sm">
+            <p className="font-light text-gray-500 text-sm max-md:text-center">
               Advance your career with full-time writing jobs at leading
               companies, media outlets, and publishers.
             </p>
