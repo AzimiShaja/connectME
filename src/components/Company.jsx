@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineSchedule } from "react-icons/ai";
-import { BiBriefcase, BiPen } from "react-icons/bi";
+import { BiPen } from "react-icons/bi";
+import companies from "./Companies";
 import {
   BsArrowRight,
   BsArrowRightShort,
@@ -15,7 +16,7 @@ const Company = () => {
         <h1 className="bg-whiteGreen p-2 rounded-sm font-light  text-green ">
           Browse Company Profiles and Open Positions
         </h1>
-        <h1 className="text-4xl font-dm text-center text-green">
+        <h1 className="text-4xl font-dm text-center ">
           Discover Top Hiring Companies
         </h1>
         <p className="font-light text-center text-sm">
@@ -37,7 +38,17 @@ const Company = () => {
       <div className="lg:w-9/12 w-full">
         <div className="grid grid-cols-4"></div>
       </div>
-
+      <div className="grid grid-cols-4">
+        {companies.map(({ img, name, jobsPosted }) => {
+          return (
+            <div>
+              <img src={img} />
+              <h1>{name}</h1>
+              <p>{jobsPosted}</p>
+            </div>
+          );
+        })}
+      </div>
       <div className="lg:w-9/12 w-full px-8 flex flex-col items-center gap-14">
         <div className="grid md:grid-cols-3 px-8 gap-20  mt-20">
           <div className="flex flex-col items-center md:items-start gap-3">
