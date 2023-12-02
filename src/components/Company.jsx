@@ -13,7 +13,7 @@ const Company = () => {
   return (
     <div className="flex flex-col items-center bg-gray-50 py-20">
       <div className="flex flex-col items-center gap-4 max-w-[600px] px-8">
-        <h1 className="bg-whiteGreen p-2 rounded-sm font-light  text-green ">
+        <h1 className="bg-whiteGreen p-2 rounded-sm font-light  text-green  text-center">
           Browse Company Profiles and Open Positions
         </h1>
         <h1 className="text-4xl font-dm text-center ">
@@ -34,17 +34,21 @@ const Company = () => {
           </button>
         </div>
       </div>
-
-      <div className="lg:w-9/12 w-full">
-        <div className="grid grid-cols-4"></div>
-      </div>
-      <div className="grid grid-cols-4">
-        {companies.map(({ img, name, jobsPosted }) => {
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 py-20 w-9/12 max-lg:w-full px-8">
+        {companies.map(({ id, img, name, jobsPosted }) => {
           return (
-            <div>
-              <img src={img} />
-              <h1>{name}</h1>
-              <p>{jobsPosted}</p>
+            <div
+              key={id}
+              className="flex flex-col items-center gap-7 shadow-xl p-6 rounded-sm justify-center hover:shadow-2xl hover:scale-100 duration-300 cursor-pointer"
+            >
+              <img className="w-[50px]" src={img} />
+              <div className="flex flex-col items-center gap-2 ">
+                <h1 className="font-bold text-sm">{name}</h1>
+                <p className="text-gray-400 text-sm text-center">
+                  {" "}
+                  {jobsPosted} jobs posted{" "}
+                </p>
+              </div>
             </div>
           );
         })}
