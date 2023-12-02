@@ -11,7 +11,10 @@ import {
 
 const Company = () => {
   return (
-    <div className="flex flex-col items-center bg-gray-50 py-20">
+    <div
+      className="flex flex-col items-center bg-gray-5
+    0 py-20 bg-gray-50"
+    >
       <div className="flex flex-col items-center gap-4 max-w-[600px] px-8">
         <h1 className="bg-whiteGreen p-2 rounded-sm font-light  text-green  text-center">
           Browse Company Profiles and Open Positions
@@ -39,7 +42,7 @@ const Company = () => {
           return (
             <div
               key={id}
-              className="flex flex-col items-center gap-7 shadow-xl p-6 rounded-sm justify-center hover:shadow-2xl hover:scale-100 duration-300 cursor-pointer"
+              className="flex flex-col items-center gap-7 shadow-xl p-6 border border-gray-100 rounded-sm justify-center hover:shadow-2xl hover:scale-105 duration-100 cursor-pointer"
             >
               <img className="w-[50px]" src={img} />
               <div className="flex flex-col items-center gap-2 ">

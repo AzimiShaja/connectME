@@ -1,6 +1,7 @@
 import Company from "../components/Company";
 import Hero from "../components/Hero";
 import Jobs from "../components/Jobs";
+import Newsletter from "../components/Newsletter";
 import Portfolio from "../components/Portfolio";
 
 const IndexPage = () => {
@@ -10,6 +11,7 @@ const IndexPage = () => {
       <Jobs />
       <Portfolio />
       <Company />
+      <Newsletter />
     </>
   );
 };

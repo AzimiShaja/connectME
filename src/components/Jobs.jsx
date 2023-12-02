@@ -18,7 +18,7 @@ const Jobs = () => {
         <h1 className="bg-whiteGreen p-2 rounded-sm font-light  text-green ">
           Best Freelance Jobs
         </h1>
-        <h1 className="text-4xl font-dm text-center text-green">
+        <h1 className="text-4xl font-dm text-center text-black">
           Explore Thousands of Freelance Job Opportunities
         </h1>
         <p className="font-light text-center text-sm">
