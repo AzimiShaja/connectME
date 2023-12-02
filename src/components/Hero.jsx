@@ -8,7 +8,7 @@ const Hero = () => {
       <div className=" h-full flex items-center  justify-center flex-col  max-lg:py-10 px-8">
         <div className="max-w-lg flex flex-col gap-10 items-start max-md:items-center">
           <h1 className="lg:text-6xl md:text-5xl  text-4xl font-light  text-white font-dm lg:leading-[70px] max-md:text-center">
-            Find The Best Freelancing Jobs
+            Find The Best Freelancing Job
           </h1>
           <p className="font-light text-lg text-white max-md:text-center max-md:text-sm">
             We hand-pick paid development opportunities, including remote,
