@@ -15,7 +15,7 @@ const Company = () => {
       className="flex flex-col items-center bg-gray-5
     0 py-20 bg-gray-50"
     >
-      <div className="flex flex-col items-center gap-4 max-w-[600px] px-8">
+      <div className="flex flex-col items-center gap-10 max-w-[600px] px-8">
         <h1 className="bg-whiteGreen p-2 rounded-sm font-light  text-green  text-center">
           Browse Company Profiles and Open Positions
         </h1>

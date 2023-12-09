@@ -17,6 +17,7 @@ export default {
         whiteYellow: "#FFCC70",
         green: "#04423c",
         whiteGreen: "#e4f6f5",
+        lightGreen: "#f3fafa",
       },
     },
   },

@@ -14,7 +14,7 @@ import { AiOutlineSchedule } from "react-icons/ai";
 const Jobs = () => {
   return (
     <div className="py-20 flex flex-col  items-center  bg-gray-50">
-      <div className="flex flex-col items-center gap-4 max-w-[600px] px-8">
+      <div className="flex flex-col items-center gap-10 max-w-[600px] px-8">
         <h1 className="bg-whiteGreen p-2 rounded-sm font-light  text-green ">
           Best Freelance Jobs
         </h1>

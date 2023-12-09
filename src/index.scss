@@ -27,3 +27,11 @@
     }
   }
 }
+
+.pp {
+  &:hover{
+    img{
+       @apply -translate-y-4 scale-110 duration-300;
+    }
+  }
+}
