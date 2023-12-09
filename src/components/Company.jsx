@@ -68,8 +68,8 @@ const Company = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center md:items-start  gap-3">
-            <h1 className="font-semibold text-md flex items-center gap-3">
+          <div className="flex flex-col items-center md:items-start  gap-3 ">
+            <h1 className="font-semibold text-md flex items-center gap-3  max-md:text-center">
               <AiOutlineSchedule /> Comprehensive Hiring Insights
             </h1>
             <p className="font-light text-gray-500 text-sm max-md:text-center">
@@ -79,7 +79,7 @@ const Company = () => {
           </div>
 
           <div className="flex flex-col items-center md:items-start  gap-3">
-            <h1 className="font-semibold text-md flex items-center gap-3">
+            <h1 className="font-semibold text-md flex items-center gap-3 max-md:text-center">
               {" "}
               <BiPen /> Streamlined Job Discovery
             </h1>
