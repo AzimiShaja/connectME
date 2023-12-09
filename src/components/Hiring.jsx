@@ -18,7 +18,7 @@ const Hiring = () => {
           web designs, and various other content types.
         </p>
       </div>
-      <div className="grid grid-cols-4 gap-10 lg:w-9/12 w-full px-8">
+      <div className="grid lg:grid-cols-4 gap-10 lg:w-9/12 w-full px-8">
         {people.map(({ img, id, name, field }) => {
           return (
             <div

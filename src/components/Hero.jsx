@@ -1,4 +1,4 @@
-import bg from "../assets/bg1.jpg";
+import bg from "../assets/h1.jpg";
 import React from "react";
 
 const Hero = () => {
