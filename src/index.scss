@@ -7,12 +7,19 @@
 }
 
 .nav-links li{
-  @apply text-black hover:text-green font-light cursor-pointer transition-all duration-300;
+  @apply text-black hover:text-green border-b-2 border-green py-1 font-light cursor-pointer transition-all duration-300;
 }
 .pattern {
   background-image: url(/src/assets/pattern.png);
   background-attachment: fixed;
   background-size: contain;
+}
+
+.open {
+  @apply h-screen opacity-100 duration-300; 
+}
+.close {
+  @apply h-0 opacity-0 p-0 duration-300;
 }
 
 .posting {
