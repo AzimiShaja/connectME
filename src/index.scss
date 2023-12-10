@@ -7,7 +7,7 @@
 }
 
 .nav-links .li {
-  @apply text-black hover:text-green hover:bg-whiteGreen px-2 rounded-md max-md:border-b-2 border-green py-1 font-light cursor-pointer transition-all duration-300;
+  @apply text-black hover:text-green hover:bg-whiteGreen px-2 md:rounded-md max-md:border-b-2 border-green py-1 font-light cursor-pointer transition-all duration-300;
 }
 .pattern {
   background-image: url(/src/assets/pattern.png);
