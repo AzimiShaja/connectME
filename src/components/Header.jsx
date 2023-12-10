@@ -53,7 +53,9 @@ const Header = () => {
           open ? "open" : "close"
         } flex flex-col items-center justify-center sticky top-0 bg-white py-6 gap-6  nav-links md:hidden`}
       >
-        <Link className="li">Jobs</Link>
+        <Link to={"/jobs"} className="li">
+          Jobs
+        </Link>
         <Link className="li">Membership</Link>
         <Link className="li">Newsletter</Link>
         <Link className="li">Freelancers</Link>
