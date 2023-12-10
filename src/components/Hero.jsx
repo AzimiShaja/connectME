@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="bg-green pattern grid grid-cols-2 max-md:grid-cols-1 items-center h-screen md:h-[700px] justify-center">
+    <div className="bg-green pattern grid grid-cols-2 max-md:grid-cols-1 items-center  md:h-[600px] justify-center">
       <div className=" h-full flex items-center  justify-center flex-col  max-lg:py-10 px-8">
         <div className="max-w-lg flex flex-col gap-10 items-start max-md:items-center">
           <h1 className="lg:text-6xl md:text-5xl  text-4xl font-light  text-white font-dm lg:leading-[70px] max-md:text-center">
@@ -23,7 +23,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <img src={bg} className="h-full object-cover " />
+      <img src={bg} className="md:h-[600px] object-cover" />
     </div>
   );
 };
