@@ -36,6 +36,8 @@
 }
 
 .pp {
+
+  @apply transition-all;
   &:hover{
     img{
        @apply -translate-y-4 scale-105 duration-100;
