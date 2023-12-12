@@ -23,11 +23,10 @@ const MembershipPage = () => {
               <p className="text-md flex  items-center gap-2">
                 {" "}
                 <IoCheckmarkCircle className="text-lg lg:text-3xl text-green" />
-                Daily Newsletter with latest writing jobs (
+                Daily Newsletter with latest writing jobs
                 <span className="text-green cursor-pointer max-md:hidden">
                   See example
                 </span>
-                )
               </p>
               <p className="text-md flex  items-center gap-2">
                 {" "}
