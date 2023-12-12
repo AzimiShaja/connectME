@@ -50,7 +50,7 @@ const MembershipPage = () => {
           <div className="flex justify-between mt-20 border-t-4 border-green lg:py-6 max-md:flex-col">
             <div className=" w-full max-md:border-b-4 lg:border-r-2 border-green lg:p-5 p-3 flex flex-col items-start gap-6 justify-between">
               <p className="text-md">
-                <span className="text-4xl text-green">$9</span> USD / month
+                <span className="text-4xl text-green">99</span> TL / month
               </p>
               <button className="bg-green p-3 text-lightGreen rounded-md text-center w-full hover:opacity-80 transition-all">
                 Start Monthly Membership
@@ -58,7 +58,7 @@ const MembershipPage = () => {
             </div>
             <div className=" w-full lg:p-5 p-3 flex flex-col items-start gap-6 justify-between ">
               <p className="text-md">
-                <span className="text-4xl text-green">$90</span> USD / year
+                <span className="text-4xl text-green">999</span> TL / year
               </p>
               <button className="bg-whiteYellow p-3 text-green rounded-md text-center w-full hover:opacity-80 transition-all">
                 Start yearly Membership
