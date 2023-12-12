@@ -1,12 +1,13 @@
 import React from "react";
 import { IoCheckmark, IoCheckmarkCircle } from "react-icons/io5";
+import Faq from "../components/Faq";
 
 const MembershipPage = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-5 py-20 px-8">
+    <div className="flex flex-col items-center justify-center gap-20 py-20 px-8">
       <div className="bg-green rounded-md lg:w-[1000px] w-full py-14 flex flex-col items-center gap-6">
         <div className="flex flex-col items-center gap-7">
-          <h2 className="bg-whiteGreen px-4 py-1 rounded-sm text-green uppercase">
+          <h2 className="bg-whiteGreen px-4 py-1  text-green uppercase">
             Pricing
           </h2>
           <h1 className="text-3xl lg:text-5xl text-white font-dm max-sm:text-center ">
@@ -77,6 +78,7 @@ const MembershipPage = () => {
           </p>
         </div>
       </div>
+      <Faq />
     </div>
   );
 };
