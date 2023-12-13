@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import IndexPage from "./pages/IndexPage";
 import JobsPage from "./pages/JobsPage";
 import MembershipPage from "./pages/MembershipPage";
+import NewsletterPage from "./pages/NewsletterPage";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/" element={<IndexPage />} />
         <Route path="/jobs" element={<JobsPage />} />
         <Route path="/membership" element={<MembershipPage />} />
+        <Route path="/newsletter" element={<NewsletterPage />} />
       </Routes>
       <Footer />
     </div>

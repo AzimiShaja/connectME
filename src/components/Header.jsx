@@ -26,16 +26,12 @@ const Header = () => {
             <Link to={"/jobs"} className="li">
               Jobs
             </Link>
-            <Link
-              to={"/membership"}
-              onClick={() => {
-                setOpen(!open);
-              }}
-              className="li"
-            >
+            <Link to={"/membership"} className="li">
               Membership
             </Link>
-            <Link className="li">Newsletter</Link>
+            <Link to={"/newsletter"} className="li">
+              Newsletter
+            </Link>
             <Link className="li">Freelancers</Link>
             <Link className="li">Blog</Link>
           </ul>
@@ -85,7 +81,15 @@ const Header = () => {
         >
           Membership
         </Link>
-        <Link className="li">Newsletter</Link>
+        <Link
+          to={"/newsletter"}
+          onClick={() => {
+            setOpen(!open);
+          }}
+          className="li"
+        >
+          Newsletter
+        </Link>
         <Link className="li">Freelancers</Link>
         <Link className="li">Blog</Link>
       </ul>
